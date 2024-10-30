@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .body {
+            width: 100vw;
+            height: 100vh;
+            /* background-image: url(Acorn-Bg.webp);
+            background-repeat: no-repeat;
+            background-size: 100%; */
+        }
+
+        .web-bg{
+            width: 100%;
+            height: 100%;
+        }
+        .web-logo{
+            width: 55%;
+            height: 65%;
+        }
+        .header {
+            background-color: white;
+            width: 100%;
+            height: 10%;
+            display: flex;
+            position: absolute;
+            top: 0px;
+
+        }
+
+        .left-header {
+            width: 15%;
+            height: 100%;
+            margin-left: 5%;
+            display: flex;
+            align-items: center;
+            color: black;
+        }
+
+        .right-header {
+            width: 50%;
+            height: 100%;
+            margin-left: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: black;
+        }
+        .material-symbols-outlined{
+            font-size: 20px;
+        }
+
+        .Niches,.Features,.Plugins,.Content,.Themes {
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            width: 90%;
+            height: 90%;
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center;
+            text-align: center; */
+        }
+
+        .content-header {
+            colour: black;
+            font-size: 24px;
+        }
+
+        .content-descp {
+            color: black;
+            font-size: 22px;
+        }
+
+        .content-buttons {}
+
+        .button-ChooseDemo {
+            background-color: #2596be;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 50px;
+            width: 18vw;
+        }
+
+        .button-Purchase {
+            background-color: transparent;
+            border: 2px solid #2596be;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 50px;
+            width: 12vw;
+        }
+
+        .button-Docs {
+            background-color: transparent;
+            border: 2px solid #2596be;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            color: black;
+            border-radius: 50px;
+            width: 8vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <img class="web-bg" src="Acorn-Bg.webp" alt="Acorn Bg" width="100%" height="100%">
+        <div class="header">
+            <div class="left-header">
+                <img class="web-logo" src="logo-blue-light.svg" alt="web-logo">
+                <!-- <h2>Acorn</h2> -->
+            </div>
+
+            <div class="right-header">
+                <div class="Niches"><i class="fa fa-code-fork" style="font-size:20px;color: black;"></i>&nbsp;Niches
+                </div>
+                <div class="Features"><span class="material-symbols-outlined">star</span>&nbsp;Features</div>
+                <div class="Plugins"><span class="material-symbols-outlined">extension</span>&nbsp;Plugins</div>
+                <div class="Content"><span class="material-symbols-outlined">desktop_windows</span>&nbsp;Content</div>
+                <div class="Themes"><span class="material-symbols-outlined">palette</span>&nbsp;Themes</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-header">
+                <h1>Multiple Niches <br> Ready for Your Project</h1>
+            </div>
+            <br>
+            <div class="content-descp">
+                <h6>Acorn React Admin Template comes with a utility structure which <br> makes it easy to create new
+                    layouts for different contents. We have utilized <br> the css structure and created 4 projects for
+                    your various needs.
+                    <br><br>
+                    Acorn has over 150 pages and the content of the pages are easily <br> interchangeable among the
+                    niche points
+                </h6>
+            </div>
+            <br><br><br>
+            <div class="content-buttons">
+                <button class="button-ChooseDemo">Choose a Demo</button>
+                <button class="button-Purchase">Purchase</button>
+                <button class="button-Docs">Docs</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
