@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Page</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .body {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(BluePage-Bg2.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* background-color: #5444cb; */
+        }
+        
+        .header {
+            width: 100%;
+            height: 10%;
+            display: flex;
+        }
+
+        .left-header {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .right-header {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+
+        .content {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .content-header {
+            font-size: 60px;
+        }
+
+        .content-descp {
+            font-size: 15px;
+        }
+
+        .content-buttons {
+            align-items: center;
+        }
+
+        .button-Demo {
+            background-color: #3131d1;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 50px;
+            width: 30vw;
+        }
+
+        .button-Features {
+            background-color: transparent;
+            border: 2px solid white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 50px;
+            width: 30vw;
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <img src="BluePage-Bg.jpeg" alt="Background image"> -->
+    <div class="body">
+        <div class="header">
+            <div class="left-header"> &nbsp; ROXINE</div>
+            <div class="right-header">Home &nbsp;&nbsp; Services &nbsp;&nbsp; Portfolio &nbsp;&nbsp; Elements &nbsp;&nbsp; About
+                    &nbsp;&nbsp; Team &nbsp;&nbsp; <i class="material-icons" style="font-size:28px">search</i>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-header">Bootstrap 4 Templating <br> Engine</div>
+            <br>
+            <div class="content-descp">An innovation in design trend that will evolve with your audience <br> and will
+                allow you to scale on demand</div>
+            <br><br>
+            <div class="content-buttons">
+                <button class="button-Demo">Demo</button>
+                <button class="button-Features">Features</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

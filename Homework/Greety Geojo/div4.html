@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display flex</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .parent-2,.parent-3,.parent-4{
+            display: flex;
+            justify-content: end;
+            align-items: start;
+        }
+         
+
+        .section-1{
+            display: flex;
+            justify-content: end;
+            align-items: start;
+            width: 800px;
+            height: 400px;
+        }
+
+        .section-2{
+            display: flex;
+            justify-content: start;
+            align-items: end;
+            width: 800px;
+            height: 400px;
+        }
+
+        .parent-1{
+            background-color: green;
+            width: 800px;
+            height: 800px;
+
+            flex-direction: column;
+        }
+
+        .parent-2{
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+        }
+
+        .parent-3{
+            background-color: purple;
+            width: 150px;
+            height: 150px;
+        }
+
+        .parent-4{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="parent-1">
+        <div class="section-1">
+
+        <div class="parent-2">
+            <div class="parent-3">
+                <div class="parent-4"></div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="section-2">
+
+        <div class="parent-2" style="background-color: yellow;">
+            <div class="parent-3">
+                <div class="parent-4"></div>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
